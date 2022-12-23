@@ -1,0 +1,51 @@
+.company {
+  margin-bottom: 50px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.compa-list {
+  display: flex;
+  & li {
+    margin-right: 30px;
+  }
+  & li:nth-child(6) {
+    margin-right: 0;
+  }
+}
+
+.compani-items {
+  display: flex;
+}
+
+.thumb-company-icons {
+  display: block;
+  width: 106px;
+  height: 60px;
+}
+
+.list .lead {
+  display: block;
+  width: 170px;
+  height: 92px;
+  text-decoration: none;
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 16px 32px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: #2196f3;
+    border-radius: 4px;
+    border-color: #2196f3;
+  }
+}

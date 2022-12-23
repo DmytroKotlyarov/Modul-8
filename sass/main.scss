@@ -1,0 +1,20 @@
+@import "./base/reset";
+@import "./base/common";
+@import "./base/conteiner";
+@import "./base/visuallyhidden";
+
+@import "./utils/variables";
+@import "./utils/placeholder";
+
+@import "./components/header";
+@import "./components/hero";
+@import "./components/mainadvantages";
+@import "./components/mainrobotexamples";
+@import "./components/mainteammembers";
+@import "./components/mainregularcustomers";
+
+@import "./components/portfolio";
+
+@import "./components/footer";
+
+@import "./components/overlay";
