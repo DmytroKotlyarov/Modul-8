@@ -45,9 +45,9 @@ span.logo {
 .list {
   display: flex;
   margin-left: auto;
-  & .advantages__items-subject + .advantages__items-subject {
-    margin-left: 30px;
-  }
+  // & .advantages__items-subject + .advantages__items-subject {
+  //   margin-left: 30px;
+  // }
   & .items-img + .items-img {
     margin-left: 30px;
   }
