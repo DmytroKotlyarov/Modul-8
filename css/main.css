@@ -125,7 +125,6 @@ span.logo {
 
 .list {
   display: flex;
-  margin-left: auto;
 }
 .list .items-img + .items-img {
   margin-left: 30px;
@@ -248,17 +247,14 @@ span.logo {
 }
 
 .advantages__list {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
 }
 @media screen and (min-width: 768px) {
   .advantages__list {
-    max-width: calc((100% - 60px) / 2);
+    flex-wrap: wrap;
   }
-}
-
-.advantages__items-subject {
-  width: 100%;
-  height: 246px;
 }
 
 .advantages__thumb {
